@@ -1,6 +1,6 @@
 # RAG-LLM Lossless Data Compressor
 
-A web-based interface for lossless data compression using RAG (Retrieval-Augmented Generation) and Large Language Models.
+A web-based and CLI interface for lossless data compression using RAG (Retrieval-Augmented Generation) and Large Language Models.
 
 ## 🚀 Live Demo
 
@@ -87,16 +87,6 @@ RAG-compressor/
 ├── DEPLOYMENT.md            # Deployment guide
 └── QUICKSTART.md            # Quick start guide
 ```
-
-## 🎨 Web Interface
-
-The web interface provides:
-- Clean, dark theme with professional UI
-- Three tabs: Compress, Decompress, About
-- Real-time statistics
-- File download support
-- Example texts for testing
-- Mobile-responsive design
 
 ## 🔧 Configuration
 
