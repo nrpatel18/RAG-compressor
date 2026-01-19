@@ -1,0 +1,17 @@
+name: rag-compressor
+services:
+  - name: web
+    github:
+      repo: nrpatel18/RAG-compressor
+      branch: main
+      deploy_on_push: true
+    source_dir: /
+    run_command: python gradio_app_instant.py
+    build_command: pip install -r requirements.txt
+    environment_slug: python
+    instance_count: 1
+    instance_size_slug: basic-xxs
+    http_port: 8080
+    envs:
+      - key: PORT
+        value: "8080"
