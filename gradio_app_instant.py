@@ -231,6 +231,9 @@ with gr.Blocks(css=css, title="Text Compressor", theme=gr.themes.Base()) as app:
     
     gr.Markdown("""
     This is a CPU tool. I didn't have money 😔 to buy cloud GPU resources for better compression.
+    
+    1. <a href="https://drive.google.com/file/d/1eQlX4rz9dsl4EnZzbYY4YbNJJ0WTW1t-/view?usp=sharing" target="_blank">Read the Research Proposal</a>
+    2. Didn't understand? <a href="https://drive.google.com/file/d/1qPx-EZFVsWTZV0G1WR0KioYj5HepXD5h/view?usp=sharing" target="_blank">See a video</a>
     """)
     
     with gr.Tabs():
