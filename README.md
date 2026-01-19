@@ -2,9 +2,9 @@
 
 A web-based and CLI interface for lossless data compression using RAG (Retrieval-Augmented Generation) and Large Language Models.
 
-## 🚀 Live Demo
+## 📄 Research Paper
 
-Try the instant compression tool: [Launch Web Interface](#installation)
+For detailed research explanation: [Research Proposal PDF](./Research%20Proposal.pdf)
 
 ## 📋 Features
 
