@@ -31,8 +31,6 @@ pip install -r requirements.txt
 python gradio_app_instant.py
 ```
 
-Visit `http://localhost:7862` in your browser.
-
 ### Usage
 
 **Web Interface (Instant):**
@@ -108,51 +106,6 @@ Edit `gradio_app_instant.py` to customize:
 - Compression level
 - UI theme colors
 
-## 📚 Documentation
-
-- [Quick Start Guide](QUICKSTART.md)
-- [Deployment Guide](DEPLOYMENT.md)
-- [API Documentation](#) (Coming soon)
-
-## 🤝 Contributing
-
-This is a research project. Contributions welcome!
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Original RAG-LLM compression research and implementation by [fracturesr](https://github.com/FractureSR)
-- BGPT model by [Sander Wood](https://github.com/sanderwood)
-- Developed under PhD supervision and collaboration
-
-## 👤 Author
-
-**Nivid Patel**
-- Email: nividpatel18102004@gmail.com
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-
-## 📝 Citation
-
-If you use this work in your research, please cite:
-
-```bibtex
-@software{patel2026rag,
-  author = {Patel, Nivid},
-  title = {RAG-LLM Lossless Data Compressor},
-  year = {2026},
-  url = {https://github.com/YOUR_USERNAME/RAG-compressor}
-}
-```
-
 ## 🐛 Known Issues
 
 - LLM compression is slow on CPU (requires GPU for optimal performance)
@@ -168,12 +121,5 @@ If you use this work in your research, please cite:
 - [ ] Add user authentication
 - [ ] Batch processing support
 
-## 📞 Support
-
-For issues and questions:
-- Open an issue on GitHub
-- Email: nividpatel18102004@gmail.com
 
 ---
-
-**Note:** This tool uses gzip for web demonstration. For research-grade LLM compression, use the CLI tools with GPU resources.
