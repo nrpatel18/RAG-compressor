@@ -304,7 +304,7 @@ with gr.Blocks(css=css, title="Text Compressor", theme=gr.themes.Base()) as app:
             
             All mathematical details, algorithms, and implementation specifics are available in the GitHub repository.
             
-            **GitHub Repository:** [Link will be provided]
+            **GitHub Repository:** [https://github.com/nrpatel18/RAG-compressor](https://github.com/nrpatel18/RAG-compressor)
             
             ### Features:
             
