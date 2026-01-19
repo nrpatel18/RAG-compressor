@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: rag-compressor
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python gradio_app_instant.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.18
